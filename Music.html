@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Music</title>
+		<link type="text/css" rel="stylesheet" href="styles.css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+	  <header>
+	    <nav>
+  		<ul>
+  		  <li><a href="index.html">Home</a></li>
+  		  <li><a href= "Attractions.html">Places to visit</a></li>
+  		  <li><a href="Food.html">Food</a></li>
+			<li>Music</li>
+			<li><a href="Cricket.html">Cricket</a></li>
+  		</ul>
+  		</nav>
+	  </header>
+	  <main>
+	    <article>
+	    <h1>Music</h1> 
+	    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+	    <p>The music of India includes multiple varieties of Punjabi music, classical music, folk music, filmi, Indian rock and Indian pop. This is an instrumental version of the national anthem of India.</p>
+	    
+	    <iframe width="480" height="315" src="https://www.youtube.com/embed/hw3xL1onw5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	    <section>
+	    <h3>History of Music in India</h3>
+	    
+	    <p>The history of music in India can be traced back to the Vedic times. The concept of Naadbrahma was prevalent in the Vedic ages. All organised music traces origins back to Sam Veda whick contains the earliest form of organised music. During the late Vedic period music prevailed in the form called Samgana which was purely chanting of the verses in a musical patern. After that music changed its course a little bit. The epics were narrated in musical tones called Jatigan.</p>
+	    <section class="topDivider">
+
+	    </section>
+	    <section>
+	    <h3>Bollywood music</h3>
+	    
+	    <p>Bollywood songs more formally known as Hindi film songs or filmi songs are songs featured in Bollywood films. Derived from the song-and-dance routines common in Indian films, Bollywood songs along with dance are a characteristic mofit or Hindi cinema which gives it enduring popular appeal, cultural value and context. Hindi songs are now firmly embedded in North India's popular culture and routinely encountered in North India in marketplaces, shops during bus and train journeys and numerous other situations.</p>
+	    </section>
+	    
+		</article>
+		
+		<br>
+			<script>
+				function Cricket() {
+					  window.location.assign("https://welcome-to-india.netlify.app/cricket")
+				}
+				function Food() {
+					window.location.assign("https://welcome-to-india.netlify.app/food")
+				}
+			</script>
+			<input type="button" value="Back" id="backandfor" onclick= "Food()">
+			<input type="button" value="Forward" id="backandfor" onclick="Cricket()">
+
+	  </main>
+	  <footer>
+	    This site is created by Vidit
+	  </footer>
+	</body>
+</html>
+
